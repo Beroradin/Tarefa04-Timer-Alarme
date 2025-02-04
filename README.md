@@ -48,4 +48,4 @@ O funcionamento dos alarmes ocorrem por meio da API de Hardware *add_alarm_in_ms
   <img src=".github/alarme.gif" alt="GIF" width="411px" />
 </p>
 
-O funcionamento na placa BitDogLab é difícil ver a mudança dos estados dos LEDs devido ao uso do LED RGB e também por causa da compressão do GIF.
+Na placa BitDogLab, é difícil visualizar a mudança dos estados dos LEDs devido ao uso do LED RGB e à compressão do GIF. No entanto, o funcionamento ocorre de forma semelhante à simulação: inicialmente, todos os LEDs estão em nível alto (resultando na cor branca). Após 3 segundos, o LED vermelho é desligado, enquanto os LEDs azul e verde permanecem em nível alto (resultando na cor ciano). Depois de mais 3 segundos, apenas o LED verde permanece em nível alto. Por fim, após mais 3 segundos, todos os LEDs estarão em nível baixo. Ressaltando que essas mudanças se devem ao uso de timers e alarmes.
