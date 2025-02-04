@@ -17,7 +17,9 @@ Para consolidar a compreensão dos conceitos relacionados ao uso de temporizador
 
 - Após o pressionar do botão, é chamado um alarme *one-shot* a cada 3 segundos para desligar um LED por vez, até que todos estejam em nível lógico baixo;
 
-- Durante a sequência dos LEDs e seus alarmes, a sequência não pode ser inicializada novamente, deve-se aguardar acabar a sequência atual terminar para que seja chamada novamente.
+- Durante a sequência dos LEDs e seus alarmes, a sequência não pode ser inicializada novamente, deve-se aguardar acabar a sequência atual terminar para que seja chamada novamente;
+
+- Opcional: Implementar debounce no botão.
 
 ## :books: Descrição do Projeto
 
